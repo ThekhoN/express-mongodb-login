@@ -6,6 +6,7 @@ const router = require('./router/router');
 
 // db
 const mongoose = require('mongoose');
+mongoose.Promise = require('bluebird');
 mongoose.connect('mongodb://localhost:auth/auth') ;
 
 // app
