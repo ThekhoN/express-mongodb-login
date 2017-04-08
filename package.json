@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon index"
+    "dev": "nodemon index"
   },
   "author": "thekho ngaosathe",
   "license": "ISC",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
